@@ -36,7 +36,7 @@ const Carts = () => {
           
             handler: (res) => {
               console.log(res);
-              alert(`${res.razorpay_payment_id}`)
+              alert(`Payment SuccessFully And Payment ID: ${res.razorpay_payment_id}`)
               navigate("/cart/checkout")
             },
             prefill: {
