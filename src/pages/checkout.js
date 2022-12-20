@@ -53,7 +53,7 @@ const Checkout = () => {
 <h2>Total Item : {cart.length}</h2>
 
 <h2> <span className="badge text-bg-success m-3">Your Order SuccessFully Booking</span></h2>
-<Link to="/home" refresh="true">  <button type="button" className=" btn-lg btn btn-info"  onClick={empty} >Continous Shopping -></button></Link>
+<Link to="/home" refresh="true">  <button type="button" className=" btn-lg btn btn-info"  onClick={empty} >Continue Shopping -></button></Link>
 
 </div>):(<></>)}
           
